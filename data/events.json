@@ -1,0 +1,37 @@
+[
+  {
+    "kind": "backup",
+    "backup_id": "B0",
+    "parent_backup": null,
+    "snapshot": "v1",
+    "cursor": {
+      "source": "lab",
+      "epoch": "e1",
+      "sequence": 1
+    }
+  },
+  {
+    "kind": "backup",
+    "backup_id": "B1",
+    "parent_backup": "B0",
+    "snapshot": "v2",
+    "remove_refs": [
+      "samples/old"
+    ],
+    "cursor": {
+      "source": "lab",
+      "epoch": "e1",
+      "sequence": 2
+    }
+  },
+  {
+    "kind": "restore",
+    "backup_id": "B1"
+  },
+  {
+    "kind": "receive",
+    "source": "lab",
+    "epoch": "e2",
+    "sequence": 2
+  }
+]

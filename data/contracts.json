@@ -1,0 +1,9 @@
+{
+  "backup_identity": "backup_id全链唯一，parent_backup指向摘要绑定父节点",
+  "backup_payload": "events描述拟执行动作，不是假称已有可恢复备份；真实备份内容与摘要应由新增入口生成",
+  "source_epoch": "e1与e2是不同来源代，不能自动接续",
+  "initial_tables": [
+    "samples",
+    "measurements"
+  ]
+}

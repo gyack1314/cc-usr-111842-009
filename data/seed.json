@@ -1,0 +1,15 @@
+{
+  "samples": [
+    {
+      "sample_id": "S1",
+      "cohort": "A"
+    }
+  ],
+  "measurements": [
+    {
+      "measurement_id": "M1",
+      "sample_id": "S1",
+      "value": "1.0"
+    }
+  ]
+}

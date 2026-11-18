@@ -1,0 +1,34 @@
+{
+  "dataset": "q009",
+  "files": [
+    {
+      "file": "samples.parquet",
+      "table": "samples",
+      "sha256": "8e4ab1c26bbb9cf76cb2c558f3fd66967e9bb32e5adf4ccfc4b0b54b0939fd6a",
+      "bytes": 678,
+      "rows": 1
+    },
+    {
+      "file": "measurements.parquet",
+      "table": "measurements",
+      "sha256": "ac9319ccc729737ca82c5004cd4532c9cff9fff34e36081d35d6b8ddef325be8",
+      "bytes": 954,
+      "rows": 1
+    },
+    {
+      "file": "seed.json",
+      "sha256": "36dc5619ec0312d0323607ee8fce54205ba0ec745fbcf1970aeb85abda9b8ea8",
+      "bytes": 208
+    },
+    {
+      "file": "events.json",
+      "sha256": "feac3137261d071bcfb16745c002161d2455f0665db5cd41649e0296f9a2825f",
+      "bytes": 610
+    },
+    {
+      "file": "contracts.json",
+      "sha256": "db4785260ed2b542bb6cea528cdfdaf58f6e8d3419b6a2457f5a04a61888d876",
+      "bytes": 371
+    }
+  ]
+}
